@@ -1,0 +1,31 @@
+{
+  "dataset": "IFND",
+  "n": 3100,
+  "labels": [
+    "Real",
+    "Misinformation"
+  ],
+  "matrix": [
+    [
+      1289,
+      262
+    ],
+    [
+      253,
+      1296
+    ]
+  ],
+  "per_class": {
+    "Real": {
+      "precision": 83.59,
+      "recall": 83.11,
+      "f1": 83.35
+    },
+    "Misinformation": {
+      "precision": 83.18,
+      "recall": 83.67,
+      "f1": 83.42
+    }
+  },
+  "note": "Single-client diagnostic (Tables 7 & 10). Cross-client macros in Table 3 are averages over 50 clients."
+}

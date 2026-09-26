@@ -1,0 +1,31 @@
+{
+  "dataset": "FakeNewsNet",
+  "n": 3900,
+  "labels": [
+    "Real",
+    "Fake"
+  ],
+  "matrix": [
+    [
+      1662,
+      288
+    ],
+    [
+      265,
+      1685
+    ]
+  ],
+  "per_class": {
+    "Real": {
+      "precision": 86.25,
+      "recall": 85.23,
+      "f1": 85.74
+    },
+    "Fake": {
+      "precision": 85.4,
+      "recall": 86.41,
+      "f1": 85.9
+    }
+  },
+  "note": "Single-client diagnostic (Tables 8 & 10)."
+}
