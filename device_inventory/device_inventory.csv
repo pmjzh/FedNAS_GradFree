@@ -1,0 +1,51 @@
+device_id,class,model,soc,ram_gb,android,accelerator,power_budget_w,cpu_cores,cpu_freq_ghz_effective
+D00,low-end,Samsung Galaxy A13,Exynos 850,4,Android 12,,3.5,8,1.55
+D01,low-end,Samsung Galaxy A14,Exynos 850,4,Android 13,,3.6,8,1.78
+D02,low-end,Xiaomi Redmi 10A,Helio G25,3,Android 11,,3.2,8,1.69
+D03,low-end,Xiaomi POCO C40,JLQ JR510,4,Android 11,,3.4,8,1.64
+D04,low-end,Samsung Galaxy A12,Exynos 850,4,Android 11,,3.5,8,1.46
+D05,low-end,Samsung Galaxy A13,Exynos 850,4,Android 12,,3.5,8,1.46
+D06,low-end,Samsung Galaxy A14,Exynos 850,4,Android 13,,3.6,8,1.42
+D07,low-end,Xiaomi Redmi 10A,Helio G25,3,Android 11,,3.2,8,1.75
+D08,low-end,Xiaomi POCO C40,JLQ JR510,4,Android 11,,3.4,8,1.64
+D09,low-end,Samsung Galaxy A12,Exynos 850,4,Android 11,,3.5,8,1.68
+D10,low-end,Samsung Galaxy A13,Exynos 850,4,Android 12,,3.5,8,1.41
+D11,low-end,Samsung Galaxy A14,Exynos 850,4,Android 13,,3.6,8,1.79
+D12,low-end,Xiaomi Redmi 10A,Helio G25,3,Android 11,,3.2,8,1.73
+D13,low-end,Xiaomi POCO C40,JLQ JR510,4,Android 11,,3.4,8,1.48
+D14,low-end,Samsung Galaxy A12,Exynos 850,4,Android 11,,3.5,8,1.47
+D15,low-end,Samsung Galaxy A13,Exynos 850,4,Android 12,,3.5,8,1.47
+D16,low-end,Samsung Galaxy A14,Exynos 850,4,Android 13,,3.6,8,1.52
+D17,low-end,Xiaomi Redmi 10A,Helio G25,3,Android 11,,3.2,8,1.61
+D18,low-end,Xiaomi POCO C40,JLQ JR510,4,Android 11,,3.4,8,1.57
+D19,low-end,Samsung Galaxy A12,Exynos 850,4,Android 11,,3.5,8,1.52
+D20,low-end,Samsung Galaxy A13,Exynos 850,4,Android 12,,3.5,8,1.64
+D21,low-end,Samsung Galaxy A14,Exynos 850,4,Android 13,,3.6,8,1.46
+D22,low-end,Xiaomi Redmi 10A,Helio G25,3,Android 11,,3.2,8,1.52
+D23,low-end,Xiaomi POCO C40,JLQ JR510,4,Android 11,,3.4,8,1.55
+D24,low-end,Samsung Galaxy A12,Exynos 850,4,Android 11,,3.5,8,1.58
+D25,low-end,Samsung Galaxy A13,Exynos 850,4,Android 12,,3.5,8,1.71
+D26,low-end,Samsung Galaxy A14,Exynos 850,4,Android 13,,3.6,8,1.48
+D27,low-end,Xiaomi Redmi 10A,Helio G25,3,Android 11,,3.2,8,1.61
+D28,low-end,Xiaomi POCO C40,JLQ JR510,4,Android 11,,3.4,8,1.64
+D29,low-end,Samsung Galaxy A12,Exynos 850,4,Android 11,,3.5,8,1.42
+D30,mid-range,Samsung Galaxy A54,Exynos 1380,8,Android 13,Mali-G68,5.0,8,2.44
+D31,mid-range,Samsung Galaxy Note 20,Exynos 990,8,Android 12,Mali-G77,5.5,8,2.12
+D32,mid-range,Xiaomi Mi 11 Lite,Snapdragon 732G,6,Android 12,Adreno 618,4.8,8,2.05
+D33,mid-range,Samsung Galaxy A52,Snapdragon 720G,6,Android 12,Adreno 618,4.7,8,2.69
+D34,mid-range,Xiaomi Redmi Note 11,Snapdragon 680,6,Android 12,Adreno 610,4.5,8,2.7
+D35,mid-range,Samsung Galaxy A54,Exynos 1380,8,Android 13,Mali-G68,5.0,8,2.59
+D36,mid-range,Samsung Galaxy Note 20,Exynos 990,8,Android 12,Mali-G77,5.5,8,2.22
+D37,mid-range,Xiaomi Mi 11 Lite,Snapdragon 732G,6,Android 12,Adreno 618,4.8,8,2.07
+D38,mid-range,Samsung Galaxy A52,Snapdragon 720G,6,Android 12,Adreno 618,4.7,8,2.5
+D39,mid-range,Xiaomi Redmi Note 11,Snapdragon 680,6,Android 12,Adreno 610,4.5,8,2.32
+D40,mid-range,Samsung Galaxy A54,Exynos 1380,8,Android 13,Mali-G68,5.0,8,2.09
+D41,mid-range,Samsung Galaxy Note 20,Exynos 990,8,Android 12,Mali-G77,5.5,8,2.36
+D42,mid-range,Xiaomi Mi 11 Lite,Snapdragon 732G,6,Android 12,Adreno 618,4.8,8,2.03
+D43,mid-range,Samsung Galaxy A52,Snapdragon 720G,6,Android 12,Adreno 618,4.7,8,2.66
+D44,mid-range,Xiaomi Redmi Note 11,Snapdragon 680,6,Android 12,Adreno 610,4.5,8,2.19
+D45,high-end,Samsung Galaxy S22,Snapdragon 8 Gen 1,8,Android 13,Adreno 730,8.0,8,3.07
+D46,high-end,Samsung Galaxy S23,Snapdragon 8 Gen 2,8,Android 13,Adreno 740,9.0,8,2.92
+D47,high-end,Xiaomi 12,Snapdragon 8 Gen 1,8,Android 13,Adreno 730,7.5,8,3.01
+D48,high-end,Samsung Galaxy S22+,Snapdragon 8 Gen 1,8,Android 13,Adreno 730,8.5,8,3.02
+D49,high-end,Xiaomi 12 Pro,Snapdragon 8 Gen 1,12,Android 13,Adreno 730,9.5,8,2.87
