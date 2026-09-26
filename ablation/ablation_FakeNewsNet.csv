@@ -1,0 +1,7 @@
+Variant,F1 (%),Latency (ms)
+Full FedNAS-GradFree,86.93,27.4
+Fixed median architecture,83.4,47
+Random search (no evolution),83.9,42
+Weight sync (FedAvg),84.1,33
+No Pareto consensus,84.3,34
+No hardware awareness,82.7,69
