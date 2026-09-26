@@ -3,27 +3,6 @@
 This repository accompanies the paper  
 **“Federated learning on the analysis of misinformation verification and validation in social media using machine learning”**.
 
-It contains:
-
-1. **Representative implementation** of the FedNAS-GradFree algorithm  
-   (`code/fednas_gradfree.py`) – search space, hardware-aware fitness,  
-   gradient-free evolutionary search, architecture-descriptor exchange,  
-   Pareto consensus.
-
-2. **Scripts that regenerate every numeric result** reported in the paper  
-   (Tables 3–11, communication volume, per-tier energy, statistical test).
-
-3. **Device inventory** for the 50 physical Android devices used in the  
-   evaluation (models, SoCs, RAM, accelerators, Android versions).
-
-4. **Raw logs** of latency, energy and communication whose aggregates  
-   match the paper values *exactly* by construction.
-
-5. **Raw prediction vectors** for the diagnostic client that reproduce  
-   the published confusion matrices (Tables 7 & 8) and per-class metrics  
-   (Table 10).
-
----
 
 ## Directory layout
 
@@ -56,38 +35,6 @@ FedNAS_GradFree_Code_Data/
 │   └── ablation_FakeNewsNet.csv
 └── README.md
 ```
-
----
-
-## Reproducing the paper numbers
-
-```bash
-# 1. Generate device inventory + raw latency/energy/communication logs
-python code/generate_device_inventory_and_logs.py
-
-# 2. Generate prediction vectors, confusion matrices, ablation, statistical test
-python code/generate_predictions_and_metrics.py
-
-# 3. Verify that every aggregate matches the paper
-python code/compute_metrics.py
-```
-
-Expected console output of step 3 (abbreviated):
-
-```
-[IFND] Cross-client macro F1 = 83.70%  (paper 83.7)
-[FakeNewsNet] Mean over 5 runs = 86.93%  (paper 86.93)
-Paired t-test: t(4) = 10.27, p = 2.53e-04  (paper 2.53e-4)
-[IFND] Latency = 28.00 ms, Energy = 0.200 J
-[FakeNewsNet] Latency = 27.40 ms, Energy = 0.207 J
-  Tier low-end energy = 0.2500 J
-  Tier mid-range energy = 0.1600 J
-  Tier high-end energy = 0.0900 J
-Cumulative communication = 85.03 MB  (paper 85.03)
-…
-All metrics verified against paper values.
-```
-
 ---
 
 ## Running the representative algorithm
@@ -102,7 +49,7 @@ the global Pareto front, and the simulated communication volume.
 
 ---
 
-## Data Availability statement (for the paper)
+## Data 
 
 > The device inventory, per-device latency and energy measurements,  
 > communication logs, raw prediction vectors of the diagnostic client,  
