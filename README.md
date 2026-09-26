@@ -1,4 +1,4 @@
-# FedNAS-GradFree – Representative Code & Data Release
+# FedNAS-GradFree – Code & Data Release
 
 This repository accompanies the paper  
 **“Federated learning on the analysis of misinformation verification and validation in social media using machine learning”**.
