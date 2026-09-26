@@ -1,0 +1,26 @@
+{
+  "Full FedNAS-GradFree": {
+    "F1": 86.93,
+    "Latency_ms": 27.4
+  },
+  "Fixed median architecture": {
+    "F1": 83.4,
+    "Latency_ms": 47
+  },
+  "Random search (no evolution)": {
+    "F1": 83.9,
+    "Latency_ms": 42
+  },
+  "Weight sync (FedAvg)": {
+    "F1": 84.1,
+    "Latency_ms": 33
+  },
+  "No Pareto consensus": {
+    "F1": 84.3,
+    "Latency_ms": 34
+  },
+  "No hardware awareness": {
+    "F1": 82.7,
+    "Latency_ms": 69
+  }
+}
